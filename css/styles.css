@@ -19,8 +19,7 @@ a {
   font-weight: 700;
   font-size: 18px;
 
-  /* line-height: 21px; */
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -34,7 +33,6 @@ a {
   font-weight: 500;
   font-size: 16px;
 
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
 
@@ -49,7 +47,6 @@ a {
   font-weight: 400;
   font-size: 16px;
 
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
 
@@ -58,4 +55,32 @@ a {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+
+/* ----------------------------      Hero     -------------------------------- */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #fff;
+
+  background: #4d5ae5;
 }
